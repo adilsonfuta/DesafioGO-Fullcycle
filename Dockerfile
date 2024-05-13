@@ -6,7 +6,7 @@ COPY . .
 
 RUN go build -o main .
 
-FROM alpine:latest
+FROM scratch
 
 COPY --from=builder /app/main /app/main
 

@@ -1,20 +1,19 @@
-# DesafioGO-Fullcycle
+# DesafioGO-Fullcycle => 
 
-https://hub.docker.com/repository/docker/1992adilsonfuta/desafio-go/general
+Publicar uma imagem no docker hub. A imagem de nosso projeto Go precisa ter menos de 2MB 
+## Link do repo DockerHub (Use a Tag V1.2): 
+
+> https://hub.docker.com/repository/docker/1992adilsonfuta/desafio-go/general
+> 
+> https://hub.docker.com/layers/1992adilsonfuta/desafio-go/v1.2/images/sha256-d011b86b66e77cd25e3c9c4b77f475aa6bfe652be16f73fc3c8d813f5291c716?context=repo
 
 
-### Nota sobre Desafio:
+## Passos para executar a imagem e gerar container: 
 
-Publicar uma imagem no docker hub.
-A imagem de nosso projeto Go precisa ter menos de 2MB 
+> docker run 1992adilsonfuta/desafio-go:v1.2
 
-### caminho para executar 
+> docker run --name FullCycleGO 1992adilsonfuta/desafio-go:v1.2
 
-> docker run <seu-user>/fullcycle
-
-> docker run 1992adilsonfuta/desafio-go:v1.1
-
-> docker run -d --name desafio-golang 1992adilsonfuta/desafio-go:v1.1
 
 Link do repo:
-    - https://github.com/adilsonfuta/DesafioGO-Fullcycle
+- https://github.com/adilsonfuta/DesafioGO-Fullcycle
